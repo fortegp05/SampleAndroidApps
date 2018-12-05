@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_top"
+            android:icon="@mipmap/ic_home"
+            android:title="@string/menu_top" />
+        <item
+            android:id="@+id/menu_github_repository_list"
+            android:icon="@mipmap/ic_event_list"
+            android:title="@string/menu_github_repository_list" />
+        <item
+            android:id="@+id/menu_connpass_event_list"
+            android:icon="@mipmap/ic_event_list"
+            android:title="@string/menu_connpass_event_list" />
+        <item
+            android:id="@+id/menu_sqlite_sample_list"
+            android:icon="@mipmap/ic_data_folder"
+            android:title="@string/menu_sqlite_sample_list" />
+        <item
+            android:id="@+id/menu_sqlite_sample_edit"
+            android:icon="@mipmap/ic_plus"
+            android:title="@string/menu_sqlite_sample_edit" />
+    </group>
+
+</menu>
